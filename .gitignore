@@ -1,0 +1,100 @@
+i# ------------------------------
+# Build artifacts
+# ------------------------------
+build/
+build-*/
+out/
+bin/
+lib/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+*.cmake.user
+
+# Make / Ninja
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.pdb
+
+# ------------------------------
+# C++ / Compiler junk
+# ------------------------------
+*.i
+*.ii
+*.pch
+*.gch
+*.d
+*.mod
+*.s
+*.ll
+
+# Precompiled headers / modules
+*.pcm
+*.ifc
+
+# ------------------------------
+# Debug / Profiling
+# ------------------------------
+*.log
+*.trace
+*.prof
+gmon.out
+vgcore.*
+perf.data*
+
+# ------------------------------
+# Editor / IDE
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.user
+*.userprefs
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+DerivedData/
+
+# Visual Studio
+.vs/
+*.vcxproj*
+*.sln
+
+# ------------------------------
+# OS junk
+# ------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# ------------------------------
+# Dependencies
+# ------------------------------
+vcpkg_installed/
+_conan/
+.conan/
+.sln.lua
+.cache
+
+.direnv/
