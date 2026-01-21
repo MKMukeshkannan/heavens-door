@@ -2,10 +2,11 @@
 
 ## Description
 Heaven's Door is a simple C++ pen tool for creating Bézier curves, built using Raylib. It allows interactive placement and manipulation of control points to draw smooth curves in real time. This project focuses on simplicity and learning graphics programming through hands-on implementation.
+
 ---
 
 ## Screenshots
-*(Add screenshots or GIFs here)*
+![output](https://github.com/user-attachments/assets/187e85b8-061b-4b56-aac5-21dbde0ea9da)
 
 ---
 
@@ -23,7 +24,7 @@ cmake --build build
 
 ### Run
 ```bash
-./heavens-door
+./build/bin/heavens_door
 ```
 ---
 
