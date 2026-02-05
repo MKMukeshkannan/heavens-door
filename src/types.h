@@ -5,7 +5,6 @@
 #include <raylib.h>
 
 
-using Position = Vector2; 
 using  s8 = signed char;
 using  u8 = unsigned char;
 using s16 = signed short;
@@ -17,7 +16,3 @@ using u64 = unsigned long long;
 using uid = s32;
 
 
-template<typename T>
-using Res = std::expected<T, std::string>;
-
-constexpr std::unexpected<std::string> Err(std::string msg) {return std::unexpected<std::string>(msg);};

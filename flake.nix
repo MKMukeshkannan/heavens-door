@@ -20,6 +20,7 @@
               cmake
               gnumake
               raylib
+              ninja
             ];
           };
       });
